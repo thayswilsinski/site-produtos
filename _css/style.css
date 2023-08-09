@@ -1,0 +1,64 @@
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;  
+    top: 40px;
+    left: 800px;
+}
+
+nav#menu{
+    display:block;
+
+}
+nav#menu li{
+    display: inline-block;
+    background-color: pink;
+    padding: 15px;
+
+}
+nav#menu h1{
+    display: none;
+}
+body{
+    background-color:pink;
+    margin: 0px;
+}
+header{
+    background-color:white;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    position: relative;
+}
+#img1{
+    width:25%;
+}
+#img2{
+    width:33%;
+}
+#img3{
+    width: 29%;
+}
+#img4{
+    width: 24%;
+}
+#img5{
+    width: 18%;
+}
+nav#menu a:link{
+    text-decoration: none;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+nav#menu a:visited{
+    color: black;
+}
+nav#menu a:hover{
+    color: aliceblue;
+    transition: all 0.5s ease
+}
+    
+p{
+    font-size: 23px;
+}
